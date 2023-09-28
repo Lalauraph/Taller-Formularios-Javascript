@@ -7,17 +7,16 @@
 </head>
 <body>
     
-    <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
+    <form id="registro" method="post">
+
+        <input type="text" id="nombre" placeholder="nombre">
+       
+        <input type="text" id="apellido" placeholder="apellido">
       
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required>
+        <input type="number" id="edad" placeholder="edad">
       
-        <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" required>
-      
-        <button type="submit">Enviar</button>
+        <input type="submit" value="enviar">
+
       </form>
       
       <p id="resultado"></p>
